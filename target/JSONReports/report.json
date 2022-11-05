@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-05T11:54:52.277Z",
+        "line": 12,
+        "name": "Check login with successful username and password",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-with-successful-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3748665500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41298591900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser tiket.com is open",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.browser_tiketcom_is_open()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3068648600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters number 81218041648",
+            "match": {
+              "arguments": [
+                {
+                  "val": "81218041648",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_number_phone_or_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80610000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on Lanjutkan",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_on_lanjutkan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2993200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "input otp code verification",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.input_otp_code_verification()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12444477900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
