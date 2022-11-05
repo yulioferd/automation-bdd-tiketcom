@@ -17,7 +17,7 @@ Hello ! This is my portfolio in automation testing using Selenium and Cucumber B
 mvn test
 ```
 
-For more question please ask send me on email Yulioferdinand@gmail.com
+For more question please send me on email Yulioferdinand@gmail.com
 
 
 ### Thank You !
