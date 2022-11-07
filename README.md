@@ -11,6 +11,8 @@ Hello ! This is my portfolio in automation testing using Selenium and Cucumber B
 
 ### Scenario
 1. Check login with successful username and password
+2. find hotel ticket with successful input data ticket
+3. find hotel airplane with successful input data airplane
 
 ### How To Run
 ```bash
