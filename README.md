@@ -2,7 +2,7 @@
 Hello ! This is my portfolio in automation testing using Selenium and Cucumber BDD
 
 ### Installation and Preparation
-1. Java 1.8.0_202
+1. Java jdk-11.0.16.1
 2. Selenium 4.5.3
 3. Chromedriver 107.0.5304.62
 4. IntelliJ IDEA 2022.2.3
