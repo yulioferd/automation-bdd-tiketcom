@@ -3,100 +3,118 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-11-05T11:54:52.277Z",
-        "line": 12,
-        "name": "Check login with successful username and password",
+        "start_timestamp": "2022-11-07T08:03:19.960Z",
+        "line": 2,
+        "name": "find hotel ticket with successful input data ticket",
         "description": "",
-        "id": "feature-to-test-login-functionality;check-login-with-successful-username-and-password;;2",
+        "id": "feature-to-test-find-hotel-ticket;find-hotel-ticket-with-successful-input-data-ticket",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3748665500,
+              "duration": 5107316700,
               "status": "passed"
             },
             "line": 3,
-            "name": "user is on login page",
+            "name": "browser tiketcom is opened",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+              "location": "StepDefinitions.FindHotelTicketSteps.browser_tiketcom_is_opened()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 41298591900,
+              "duration": 2030265900,
               "status": "passed"
             },
             "line": 4,
-            "name": "browser tiket.com is open",
+            "name": "user clicks hotel menu",
             "match": {
-              "location": "StepDefinitions.LoginSteps.browser_tiketcom_is_open()"
+              "location": "StepDefinitions.FindHotelTicketSteps.user_clicks_hotel_menu()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3068648600,
+              "duration": 446024800,
               "status": "passed"
             },
             "line": 5,
-            "name": "user enters number 81218041648",
+            "name": "user select from bali",
             "match": {
-              "arguments": [
-                {
-                  "val": "81218041648",
-                  "offset": 19
-                }
-              ],
-              "location": "StepDefinitions.LoginSteps.user_enters_number_phone_or_email(java.lang.String)"
+              "location": "StepDefinitions.FindHotelTicketSteps.user_select_from_bali()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 80610000,
+              "duration": 157266700,
               "status": "passed"
             },
             "line": 6,
-            "name": "clicks on Lanjutkan",
+            "name": "user select checkin date",
             "match": {
-              "location": "StepDefinitions.LoginSteps.clicks_on_lanjutkan()"
+              "location": "StepDefinitions.FindHotelTicketSteps.user_select_checkin_date()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2993200,
+              "duration": 163562100,
               "status": "passed"
             },
             "line": 7,
-            "name": "input otp code verification",
+            "name": "user select checkout date",
             "match": {
-              "location": "StepDefinitions.LoginSteps.input_otp_code_verification()"
+              "location": "StepDefinitions.FindHotelTicketSteps.user_select_checkout_date()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 12444477900,
+              "duration": 125775400,
               "status": "passed"
             },
             "line": 8,
-            "name": "user is navigated to the home page",
+            "name": "user select kamar dan tamu",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+              "location": "StepDefinitions.FindHotelTicketSteps.user_select_kamar_dan_tamu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177389900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks cari hotel",
+            "match": {
+              "location": "StepDefinitions.FindHotelTicketSteps.user_clicks_cari_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279723800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "hotel ticket is displayed",
+            "match": {
+              "location": "StepDefinitions.FindHotelTicketSteps.hotel_ticket_is_displayed()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Feature to test login functionality",
+    "name": "Feature to test find hotel ticket",
     "description": "",
-    "id": "feature-to-test-login-functionality",
+    "id": "feature-to-test-find-hotel-ticket",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Login.feature",
+    "uri": "file:src/test/resources/Features/FindHotelTicket.feature",
     "tags": []
   }
 ]

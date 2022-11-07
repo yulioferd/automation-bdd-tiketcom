@@ -1,5 +1,6 @@
 Feature: Feature to test login functionality
-  Scenario: Check login with successful username and password
+
+  Scenario Outline: Check login with successful username and password
     Given user is on login page
     When browser tiket.com is open
     And user enters number <phone>
@@ -8,5 +9,5 @@ Feature: Feature to test login functionality
     Then user is navigated to the home page
 
     Examples:
-    |phone|
-    |81218041648|
+      | phone       |
+      | 81234567890 |
