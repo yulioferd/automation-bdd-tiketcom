@@ -20,7 +20,7 @@ mvn test
 ```
 Results :
 
-![ss login](https://user-images.githubusercontent.com/46779184/200120951-1d650201-0ef2-4720-a326-d729569901a3.png)
+![ss bdd tiketcom](https://user-images.githubusercontent.com/46779184/200319720-e41099ce-f1a3-426c-930a-bfe6b9ecf015.png)
 
 For more question please send me on email Yulioferdinand@gmail.com
 
